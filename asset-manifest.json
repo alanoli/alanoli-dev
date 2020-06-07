@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/alanoli-dev/static/css/main.725a63d6.chunk.css",
-    "main.js": "/alanoli-dev/static/js/main.f17bd194.chunk.js",
-    "main.js.map": "/alanoli-dev/static/js/main.f17bd194.chunk.js.map",
+    "main.css": "/alanoli-dev/static/css/main.eb3646db.chunk.css",
+    "main.js": "/alanoli-dev/static/js/main.14e77d3c.chunk.js",
+    "main.js.map": "/alanoli-dev/static/js/main.14e77d3c.chunk.js.map",
     "runtime-main.js": "/alanoli-dev/static/js/runtime-main.78104ba5.js",
     "runtime-main.js.map": "/alanoli-dev/static/js/runtime-main.78104ba5.js.map",
     "static/css/2.7bc72fb5.chunk.css": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css",
-    "static/js/2.ea226c84.chunk.js": "/alanoli-dev/static/js/2.ea226c84.chunk.js",
-    "static/js/2.ea226c84.chunk.js.map": "/alanoli-dev/static/js/2.ea226c84.chunk.js.map",
+    "static/js/2.9ecd5c9a.chunk.js": "/alanoli-dev/static/js/2.9ecd5c9a.chunk.js",
+    "static/js/2.9ecd5c9a.chunk.js.map": "/alanoli-dev/static/js/2.9ecd5c9a.chunk.js.map",
     "index.html": "/alanoli-dev/index.html",
-    "precache-manifest.0664759b28168afdac6506188239478d.js": "/alanoli-dev/precache-manifest.0664759b28168afdac6506188239478d.js",
+    "precache-manifest.6e47d2090a128c5dbdb18aa2f95add27.js": "/alanoli-dev/precache-manifest.6e47d2090a128c5dbdb18aa2f95add27.js",
     "service-worker.js": "/alanoli-dev/service-worker.js",
     "static/css/2.7bc72fb5.chunk.css.map": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css.map",
-    "static/css/main.725a63d6.chunk.css.map": "/alanoli-dev/static/css/main.725a63d6.chunk.css.map",
-    "static/js/2.ea226c84.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.ea226c84.chunk.js.LICENSE.txt",
+    "static/css/main.eb3646db.chunk.css.map": "/alanoli-dev/static/css/main.eb3646db.chunk.css.map",
+    "static/js/2.9ecd5c9a.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.9ecd5c9a.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/alanoli-dev/static/media/background.9e977f31.jpg",
     "static/media/background_2.jpg": "/alanoli-dev/static/media/background_2.bd346872.jpg",
     "static/media/css3.png": "/alanoli-dev/static/media/css3.b30a2d2e.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.78104ba5.js",
     "static/css/2.7bc72fb5.chunk.css",
-    "static/js/2.ea226c84.chunk.js",
-    "static/css/main.725a63d6.chunk.css",
-    "static/js/main.f17bd194.chunk.js"
+    "static/js/2.9ecd5c9a.chunk.js",
+    "static/css/main.eb3646db.chunk.css",
+    "static/js/main.14e77d3c.chunk.js"
   ]
 }
