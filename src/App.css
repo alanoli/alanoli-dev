@@ -1,0 +1,15 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-item {
+    /* width: 70%; */
+    /* align-items: left; */
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
+}

@@ -1,0 +1,52 @@
+.portifolio-content-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 15px;
+
+    width: 100%;
+}
+
+.portifolio-content-root.web-apps {
+    background-color: turquoise;
+}
+
+.portifolio-content-root.web-sites {
+    background-color: rgb(35, 90, 209);
+}
+
+.portifolio-content-root.devops {
+    background-color: rgb(64, 224, 136);
+}
+
+.portifolio-content-root .title-root {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    width: 90%;
+}
+
+.portifolio-content-root h2, p {
+    color: white;
+    text-align: left;
+}
+
+.portifolio-content-root .title-root h2 {
+    font-size: 1.5rem;
+}
+
+.portifolio-content-root .ant-carousel {
+    /* height: 150px; */
+    width: 100%;
+}
+
+.portifolio-content-root .ant-carousel .slick-track {
+    height: 150px;
+}
+
+/* .portifolio-content-root .ant-carousel .carousel {
+    height: 150px;
+} */

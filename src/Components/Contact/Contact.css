@@ -1,0 +1,40 @@
+.contact-page {
+	width: 100%;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 40px;
+}
+.contact-page .contact-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	margin: auto;
+
+	border: 1px solid rgb(218, 218, 218);
+	box-shadow: 1px 1px 10px rgb(216, 214, 214);
+	padding: 20px 0;
+}
+
+.contact-page .contact-container .title {
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+
+.contact-page .contact-container form {
+	/* width: 300px;
+	margin-top: 30px; */
+}
+
+.contact-page .contact-container form div {
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .contact-page .contact-container {
+        max-width: 600px;
+    }
+}

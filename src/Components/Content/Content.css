@@ -1,0 +1,49 @@
+.content-root {
+    /* background: linear-gradient(to right, #485563, #29323c); */
+    background-color: #0a1133;
+    /* height: 300px; */
+    /* color: white; */
+
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    /* padding-top: 30px;
+    padding-bottom: 20px; */
+    position: relative;
+    align-items: center;
+}
+
+.content-root h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-item {
+    margin-bottom: 30px;
+}
+
+/* For desktops: */
+@media only screen and (min-width: 768px) {
+    .content-root {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        align-items: center;
+        padding-top: 70px; */
+    }
+
+    .content-item {
+        /* width: 80%;
+        height: 100%;
+        text-align: center;
+        place-self: center; */
+    }
+
+    .card {
+        /* height: 100%; */
+    }
+}
