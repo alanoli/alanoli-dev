@@ -3,9 +3,9 @@ import React from 'react'
 import './About.css'
 import foto from '../../Assets/foto.png'
 
-export default function About() {
+export default function About({ aboutRef }) {
     return (
-        <div className="about-root">
+        <div ref={aboutRef} className="about-root">
             <div className="about-container">
                 <h1>Sobre mim</h1>
                 <img src={foto} alt="photo" />

@@ -16,20 +16,18 @@
 	align-items: center;
 	width: 75%;
 	margin: auto;
-	border: 1px solid rgb(218, 218, 218);
+	/* border: 1px solid rgb(218, 218, 218); */
 	box-shadow: 1px 1px 10px rgb(216, 214, 214);
+
+	background-color: #e2f3f5;
 
 	padding: 20px 0;
 }
 
-.about-root .about-container h1 {
-	
-}
-
 .about-root .about-container img {
 	padding-top: 10px;
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
 }
 
@@ -37,7 +35,7 @@
 	padding-top: 25px;
 	font-size: large;
 	width: 80%;
-	text-align: center;
+	text-align: left;
 	color: black;
 }
 

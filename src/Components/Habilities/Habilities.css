@@ -15,6 +15,11 @@
 	font-size: 2rem;
 }
 
+.habilities p:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
 .habilities-root {
 	padding: 15px 0;
 	/* display: flex; */

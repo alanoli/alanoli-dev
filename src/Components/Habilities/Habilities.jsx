@@ -10,7 +10,7 @@ import tech4 from "../../Assets/sql.png"
 import tech5 from "../../Assets/react.png"
 import tech6 from "../../Assets/docker.png"
 
-export default function Habilities() {
+export default function Habilities({ stackRef }) {
 	const history = useHistory()
 	return (
 		<Parallax
@@ -21,7 +21,7 @@ export default function Habilities() {
 			style={{"width": "100%"}}
 		>
 			{/* <div style={{ height: '200px' }} */}
-			<div className="habilities">
+			<div ref={stackRef} className="habilities">
 				<h1>Tecnologias utilizadas</h1>
 				<div className="habilities-root">
 					<img src={tech1} className="hability-item" alt="photo" />

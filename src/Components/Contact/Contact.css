@@ -13,9 +13,17 @@
 	width: 75%;
 	margin: auto;
 
-	border: 1px solid rgb(218, 218, 218);
+	background-color: #e2f3f5;
+
+	/* border: 1px solid rgb(218, 218, 218); */
 	box-shadow: 1px 1px 10px rgb(216, 214, 214);
 	padding: 20px 0;
+}
+
+.contact-page .contact-container .btn {
+	background-color: #22d1ee;
+	color: white;
+	font-weight: bold;
 }
 
 .contact-page .contact-container .title {

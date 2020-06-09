@@ -2,10 +2,10 @@ import React from 'react'
 
 import './Contact.css'
 
-export default function Contact() {
+export default function Contact({ contactRef }) {
 
     return (
-        <div className="contact-page">
+        <div ref={contactRef} className="contact-page">
             <div className="contact-container">
                 <h1 className="title">Fale comigo</h1>
                 <form>
@@ -21,7 +21,7 @@ export default function Contact() {
                     <div className="form-group">
                         <textarea type="message" className="form-control" id="message" rows="5" placeholder="Sua mensagem" />
                     </div>
-                    <button type="submit" className="btn btn-primary">Enviar</button>
+                    <button type="submit" className="btn">Enviar</button>
                 </form>
             </div>
         </div>

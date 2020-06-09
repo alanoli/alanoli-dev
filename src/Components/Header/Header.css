@@ -1,7 +1,7 @@
 .header-component {
     position: absolute;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .header-component .header-title {

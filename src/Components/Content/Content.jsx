@@ -31,24 +31,6 @@ export default function Content() {
 				description="Entrega de produtos e serviços de DevOps."
 				projectArray={["meme.com", "seuhorario"]}
 			/>
-
-
-			{/* <Card
-				className="content-item"
-				hoverable
-				cover={<img alt="seuhorario.com" src={seuhorario} />}
-				onClick={() => history.push("/")}
-			>
-				<Card.Meta title="SeuHorario.com" description="Web application for managing customer's agenda requests" />
-			</Card>
-			<Card
-				className="content-item"
-				hoverable
-				cover={<img alt="gabriela-muniz-web-site" src={gabrielamuniz} />}
-				onClick={() => history.push("/")}
-			>
-				<Card.Meta title="Gabriela Muniz" description="Singer Web Site" />
-			</Card> */}
 		</div>
 	)
 }

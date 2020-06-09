@@ -1,45 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .subheader {
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../../Assets/background.jpg");
+    height: 100vh;
+    /* opacity: 0.5; */
+
+    overflow: hidden;
+    /* z-index: 1; */
+}
+
+.subheader .root {
+    /* z-index: 2; */
+    padding-top: 76px; /* Header */
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.subheader .root .title {
+    /* flex: 1; */
     display: flex;
     align-items: center;
     align-self: center;
     flex-direction: column;
     justify-content: center;
-
-    font-family: 'Roboto', sans-serif;
-
-    /* background-image: url("../../Assets/background.jpg"); */
-    /* background-size: 300vh;
-    background-repeat: no-repeat; */
-    /* opacity: 0.2; */
-
-    height: 100vh;
-    min-width: 100vw;
 }
 
-.subheader h1 {
-    font-size: 15vw;
+.subheader .root .title p {
+    font-size: 7vw;
     color: white;
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
 }
 
-.subheader p {
-    font-size: 1.2rem;
+.subheader .root .projects {
+    /* flex: 2; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    height: 100%;
+    width: 100%;
+    /* padding-bottom: 30px; */
+}
+
+.subheader .root .projects .reference {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+
+    padding: 5px 0 5px 25px;
+}
+
+.subheader .root .projects .reference .projects-descr {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.subheader .root .projects .reference button {
+    background-color: #2f89fc;
     color: white;
+    font-weight: bold;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subheader .root .projects .reference button:hover {
+    background-color: white;
+    color: #2f89fc;
+}
+
+.subheader .root .projects .reference .link-root .link {
+    color: white;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.subheader .root .projects .project-content  {
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.subheader .root .projects .project-content .carousel-div {
+    height: 80%;
+}
+
+.subheader .root .projects .project-content .carousel-div .ant-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+/* .subheader .root .projects .project-content .carousel-div img {
+    height: 80%;
+} */
+
+.subheader .root .nav-below {
+    margin-bottom: 5px;
+}
+
+.subheader .root .nav-below span{
+    color: white;
+    width: 1rem;
+    height: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
 
-    .subheader {
+    .subheader .root {
         /* background-image: none;
         background-color: grey; */
     }
 
-    .subheader h1 {
+    .subheader .root .title h1 {
         font-size: 10vw;
     }
 
-    .subheader p {
+    .subheader .root .title p {
         font-size: 3vw;
     }
 }

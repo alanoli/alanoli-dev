@@ -1,23 +1,40 @@
-import React, { Component } from 'react'
-import { Parallax } from "react-parallax"
+import React from "react"
+import { useHistory } from "react-router-dom"
+import { Carousel } from "antd"
+import { DownOutlined } from "@ant-design/icons"
 
+import "./SubHeader.css"
+const sampleImg = require("../../Assets/css3.png")
 
-import './SubHeader.css'
+export default function SubHeader({ stackRef }) {
+    const history = useHistory()
 
-export default class SubHeader extends Component {
-    render() {
-        return (
-            <Parallax
-                blur={2}
-                bgImage={require("../../Assets/background.jpg")}
-                bgImageAlt=""
-                strength={80}
-            >
-                <div className="subheader">
-                    <h1 className="">Alan Oliveira</h1>
-                    <p className="">Desenvolvimento Web</p>
+    return (
+        <div className="subheader">
+            <div className="root">
+                <div className="title">
+                    <p className="">Desenvolvimento de ótimas experiências de usuário</p>
                 </div>
-            </Parallax>
-        )
-    }
+                <div className="projects">
+                    <div className="reference">
+                        <p className="projects-descr">Projetos</p>
+                        <button onClick={() => history.push("/projects")}>Demais projetos</button>
+                    </div>
+                    <div className="project-content">
+                        <div className="carousel-div">
+                            <Carousel>
+                                <img style={"height: 80%"} src={sampleImg} alt="" />
+                                <img src={sampleImg} alt="" />
+                            </Carousel>
+                        </div>
+                    </div>
+                </div>
+                <div className="nav-below">
+                    <DownOutlined
+                        onClick={() => stackRef.current.scrollIntoView({ behavior: "smooth", block: "start" })}
+                    />
+                </div>
+            </div>
+        </div>
+    )
 }
