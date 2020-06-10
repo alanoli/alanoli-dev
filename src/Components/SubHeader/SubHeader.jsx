@@ -4,7 +4,7 @@ import { Carousel } from "antd"
 import { DownOutlined } from "@ant-design/icons"
 
 import "./SubHeader.css"
-const sampleImg = require("../../Assets/css3.png")
+const sampleImg = require("../../Assets/portifolio.jpg")
 
 export default function SubHeader({ stackRef }) {
     const history = useHistory()
@@ -13,7 +13,7 @@ export default function SubHeader({ stackRef }) {
         <div className="subheader">
             <div className="root">
                 <div className="title">
-                    <p className="">Desenvolvimento de ótimas experiências de usuário</p>
+                    <p className="">Desenvolvendo soluções para o ante-ontem</p>
                 </div>
                 <div className="projects">
                     <div className="reference">
@@ -22,10 +22,10 @@ export default function SubHeader({ stackRef }) {
                     </div>
                     <div className="project-content">
                         <div className="carousel-div">
-                            <Carousel>
-                                <img style={"height: 80%"} src={sampleImg} alt="" />
-                                <img src={sampleImg} alt="" />
-                            </Carousel>
+                            {/* <Carousel> */}
+                                {/* <img style={"height: 80%"} src={sampleImg} alt="" /> */}
+                                {/* <img src={sampleImg} alt="" /> */}
+                            {/* </Carousel> */}
                         </div>
                     </div>
                 </div>

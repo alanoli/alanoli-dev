@@ -2,7 +2,8 @@
 .subheader {
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    background-image: url("../../Assets/background.jpg");
+    background-color: #2d4059;
+    /* background-image: url("../../Assets/background.jpg"); */
     height: 100vh;
     /* opacity: 0.5; */
 
@@ -70,9 +71,10 @@
 }
 
 .subheader .root .projects .reference button {
-    background-color: #2f89fc;
-    color: white;
-    font-weight: bold;
+    background-color: #ffd460;
+    /* background-color: #28c7fa; */
+    color: #2d4059;
+    font-weight: bolder;
     padding: 7px 15px;
     border-radius: 5px;
     border: none;
@@ -92,22 +94,31 @@
 .subheader .root .projects .project-content  {
     height: 100%;
     width: 100%;
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .subheader .root .projects .project-content .carousel-div {
     height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed white;
+    /* align-items: center; */
 }
 
-.subheader .root .projects .project-content .carousel-div .ant-carousel {
+/* .subheader .root .projects .project-content .carousel-div .ant-carousel {
     width: 100%;
     height: 100%;
-}
-
-/* .subheader .root .projects .project-content .carousel-div img {
-    height: 80%;
 } */
+
+.subheader .root .projects .project-content .carousel-div img {
+    height: 90%;
+}
 
 .subheader .root .nav-below {
     margin-bottom: 5px;
