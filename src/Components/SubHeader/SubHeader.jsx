@@ -4,7 +4,8 @@ import { Carousel } from "antd"
 import { DownOutlined } from "@ant-design/icons"
 
 import "./SubHeader.css"
-const sampleImg = require("../../Assets/portifolio.jpg")
+const memePortifolio = require("../../Assets/meme_portifolio.png")
+const buildsPortifolio = require("../../Assets/builds_portifolio.png")
 
 export default function SubHeader({ stackRef }) {
     const history = useHistory()
@@ -22,10 +23,11 @@ export default function SubHeader({ stackRef }) {
                     </div>
                     <div className="project-content">
                         <div className="carousel-div">
-                            {/* <Carousel> */}
+                            <Carousel effect={"fade"} autoplay autoplaySpeed={3000}>
                                 {/* <img style={"height: 80%"} src={sampleImg} alt="" /> */}
-                                {/* <img src={sampleImg} alt="" /> */}
-                            {/* </Carousel> */}
+                                <img src={memePortifolio} alt="" />
+                                <img src={buildsPortifolio} alt="" />
+                            </Carousel>
                         </div>
                     </div>
                 </div>
