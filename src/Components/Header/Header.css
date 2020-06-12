@@ -2,8 +2,13 @@
     position: absolute;
     width: 100%;
     background-color: #ffd460;
-    /* background-image: url("../../Assets/keyboard.png"); */
-    /* font-family: 'Roboto', sans-serif; */
+    background-image: url("../../Assets/keyboard_2.png");
+    background-position: center;
+    /* background-size: cover; */
+    background-size: 400px 200px;
+    /* background-position; */
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
 }
 
 .header-component .header-title {

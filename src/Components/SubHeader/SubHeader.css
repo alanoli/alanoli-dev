@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .subheader {
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     background-color: #2d4059;
     height: 100vh;
 
@@ -54,12 +54,19 @@
     margin: auto;
     width: 100%;
 
-    padding: 5px 0 5px 25px;
+    padding: 0 0 0 25px;
 }
 
 .subheader .root .projects .reference .projects-descr {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.subheader .root .projects .reference .more {
     font-size: 0.8rem;
     margin: 0;
+    border-bottom: 2px solid #ffd460;
+    /* text-decoration: underline #ffd460; */
 }
 
 .subheader .root .projects .reference button {
@@ -103,20 +110,20 @@
 
 .subheader .root .projects .project-content .carousel-div
 .ant-carousel, .slick-slider, .slick-list, .slick-track, .slick-active div {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
 .subheader .root .projects .project-content .carousel-div
 .ant-carousel, .slick-slider, .slick-list, .slick-track div {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
 .subheader .root .projects .project-content .carousel-div
 .ant-carousel .slick-slider .slick-list img {
     height: 100%;
-    width: auto;
+    /* width: auto; */
 }
 
 .subheader .root .projects .project-content .carousel-div img {

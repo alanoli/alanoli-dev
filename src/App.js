@@ -24,11 +24,11 @@ export default function App() {
 			<Header />
 			<Switch>
 				<Route exact path="/">
-					<SubHeader stackRef={stackRef} />
+					<SubHeader stackRef={stackRef} aboutRef={aboutRef} />
 					<div className="main-page">
 						<Habilities stackRef={stackRef}/>
 						<About aboutRef={aboutRef}/>
-						<Contact contactRef={contactRef}/>
+						{/* <Contact contactRef={contactRef}/> */}
 					</div>
 				</Route>
 				<Route exact path="/stack">
@@ -39,7 +39,7 @@ export default function App() {
 				</Route>
 				<Redirect to="/" />
 			</Switch>
-			<Footer aboutRef={aboutRef} contactRef={contactRef}/>
+			<Footer aboutRef={aboutRef} contactRef={contactRef} stackRef={stackRef}/>
 		</HashRouter>
 	)
 }

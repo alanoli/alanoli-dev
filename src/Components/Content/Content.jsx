@@ -25,12 +25,12 @@ export default function Content() {
 				description="Sites estáticos simples e de usos diversos."
 				projectArray={["meme.com", "seuhorario"]}
 			/>
-			<PortifolioContent
+			{/* <PortifolioContent
 				classType="devops"
 				title="DevOps"
 				description="Entrega de produtos e serviços de DevOps."
 				projectArray={["meme.com", "seuhorario"]}
-			/>
+			/> */}
 		</div>
 	)
 }

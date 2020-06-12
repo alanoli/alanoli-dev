@@ -31,7 +31,7 @@ export default function Habilities({ stackRef }) {
 					<img src={tech5} className="hability-item" alt="photo" />
 					<img src={tech6} className="hability-item" alt="photo" />
 				</div>
-				<p onClick={() => history.push("/stack")} >Saiba mais</p>
+				{/* <p onClick={() => history.push("/stack")} >Saiba mais</p> */}
 			</div>
 		</Parallax>
 	)

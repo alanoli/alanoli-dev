@@ -2,12 +2,12 @@
 	width: 100%;
 	color: black;
 	padding: 25px 0;
+	font-family: 'Roboto Slab', serif;
 	/* padding-top: 50px;
 	padding-bottom: 25px; */
 	background-color: #2d4059;
 	/* background-image: url("../../Assets/habilities_background.jpg"); */
 	/* background-position: center; */
-	font-family: 'Roboto', sans-serif;
 }
 
 .about-root .about-container {
@@ -26,24 +26,23 @@
 }
 
 .about-root .about-container img {
-	padding-top: 10px;
+	/* padding-top: 10px; */
 	height: 150px;
-	width: 150px;
-	border-radius: 50%;
+	/* width: 150px; */
+	border-radius: 15%;
 }
 
 .about-root .about-container h1 {
 	color: #ffd460;
 	font-weight: bold;
+	text-align: justify;
 }
 
 .about-root .about-container p {
 	padding-top: 25px;
 	font-size: large;
 	width: 80%;
-	text-align: left;
-	color: black;
-
+	text-align: center;
 	color: white;
 }
 

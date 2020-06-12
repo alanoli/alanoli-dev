@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './About.css'
-import foto from '../../Assets/foto.png'
+import foto from '../../Assets/fotoPerfil.png'
 
 export default function About({ aboutRef }) {
     return (
@@ -10,8 +10,7 @@ export default function About({ aboutRef }) {
                 <h1>Sobre mim</h1>
                 <img src={foto} alt="photo" />
                 <p>
-                    Desenvolvedor de Aplicações Web e Sites em geral.
-                    Implantação de aplicações e DevOps em processos.
+                    Desenvolvedor de Aplicações Web e Sites
             </p>
             </div>
         </div>
