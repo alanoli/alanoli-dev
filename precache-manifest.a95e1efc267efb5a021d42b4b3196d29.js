@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d870f17acb71efd48f061c598ac8c122",
+    "revision": "9720a7995529f11be25b7d9d13d847f5",
     "url": "/alanoli-dev/index.html"
   },
   {
-    "revision": "a4efa2ea4c3c52c84aa0",
+    "revision": "396d747b652eb5ee85d3",
     "url": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css"
   },
   {
-    "revision": "fc856ceb79307a6b120d",
-    "url": "/alanoli-dev/static/css/main.ab522c85.chunk.css"
+    "revision": "743542124b277e66b440",
+    "url": "/alanoli-dev/static/css/main.c3ed8262.chunk.css"
   },
   {
-    "revision": "a4efa2ea4c3c52c84aa0",
-    "url": "/alanoli-dev/static/js/2.1361e3e1.chunk.js"
+    "revision": "396d747b652eb5ee85d3",
+    "url": "/alanoli-dev/static/js/2.62f810cc.chunk.js"
   },
   {
     "revision": "0001512ff5376eafd7f76369861b7a6e",
-    "url": "/alanoli-dev/static/js/2.1361e3e1.chunk.js.LICENSE.txt"
+    "url": "/alanoli-dev/static/js/2.62f810cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc856ceb79307a6b120d",
-    "url": "/alanoli-dev/static/js/main.d95a949e.chunk.js"
+    "revision": "743542124b277e66b440",
+    "url": "/alanoli-dev/static/js/main.0fde43aa.chunk.js"
   },
   {
     "revision": "e65cc8df7f82448b4808",
     "url": "/alanoli-dev/static/js/runtime-main.78104ba5.js"
   },
   {
-    "revision": "9e977f3194c410d0c8d7fc6aba859e0c",
-    "url": "/alanoli-dev/static/media/background.9e977f31.jpg"
-  },
-  {
     "revision": "bd34687255a10e4b0d4707537d160fbd",
     "url": "/alanoli-dev/static/media/background_2.bd346872.jpg"
+  },
+  {
+    "revision": "d13b10bdf967ef76c86893feab4f7579",
+    "url": "/alanoli-dev/static/media/builds_portifolio.d13b10bd.png"
   },
   {
     "revision": "b30a2d2e7c3caac3c3f9ba3bd96483b4",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alanoli-dev/static/media/docker.d2a9e9a3.png"
   },
   {
-    "revision": "44a2a8283145b3b154d391fe12caa1f4",
-    "url": "/alanoli-dev/static/media/foto.44a2a828.png"
+    "revision": "fb52ac22e7db1984993e56194a4d9552",
+    "url": "/alanoli-dev/static/media/fotoPerfil.fb52ac22.png"
   },
   {
     "revision": "cace8f8339506e4137693a5d1c33a8f3",
@@ -54,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bdd029719ccf22d1ec6e0afc4e488d76",
     "url": "/alanoli-dev/static/media/javascript.bdd02971.png"
+  },
+  {
+    "revision": "7a2e30dd288ae3ed1bfc90207f729a66",
+    "url": "/alanoli-dev/static/media/keyboard_2.7a2e30dd.png"
+  },
+  {
+    "revision": "003bb93047e56eaa8d667ff53f2309e7",
+    "url": "/alanoli-dev/static/media/meme_portifolio.003bb930.png"
   },
   {
     "revision": "61a30cd48504de916dc2bac418906a34",
