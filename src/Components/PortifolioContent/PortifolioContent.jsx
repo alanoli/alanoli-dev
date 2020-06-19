@@ -1,20 +1,26 @@
 import React from "react"
 import { Carousel } from "antd"
-
 import "./PortifolioContent.css"
 
 
-export default ({ title, description, projectArray, classType }) => {
-
-	console.log(projectArray)
+export default ({ title, description, image, classType, technologies }) => {
 
 	return (
 		<div className={"portifolio-content-root " + classType}>
-			<div className="title-root">
-				<h2>{title}</h2>
-				<p>{description}</p>
+			<div className="image-root">
+				<img src={image} alt="" />
 			</div>
-			<Carousel
+			<div className="meta">
+				<h2>{title}</h2>
+				<div className="tech">
+					{technologies.map((item) => {
+						return <span>{item}</span>
+					})}
+				</div>
+				{/* <p>REACT JS CSS ...</p> */}
+				<p className="descr">{description}</p>
+			</div>
+			{/* <Carousel
 				dots={true}
 				autoplay
 				className="carousel"
@@ -24,7 +30,7 @@ export default ({ title, description, projectArray, classType }) => {
 						<h1 key={i}>{item}</h1>
 					)
 				})}
-			</Carousel>
+			</Carousel> */}
 		</div>
 	)
 }

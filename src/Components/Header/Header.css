@@ -19,6 +19,10 @@
     text-decoration-color: #ffd460; */
 }
 
+.header-component .header-title:hover {
+    cursor: pointer;
+}
+
 .ant-page-header {
     /* background: none;
     background-color: transparent; */

@@ -4,24 +4,22 @@
     align-items: center;
     justify-content: center;
 
-    padding-top: 15px;
-
     width: 100%;
+    padding-top: 20px;
+    border-bottom: 1px dashed gray;
+    font-family: 'Roboto Slab', serif;
 }
 
-.portifolio-content-root.web-apps {
-    background-color: turquoise;
+.portifolio-content-root .image-root img {
+    /* height: 100px; */
+    max-height: 100px;
 }
 
-.portifolio-content-root.web-sites {
-    background-color: rgb(35, 90, 209);
+.portifolio-content-root .image-root {
+    margin-bottom: 15px;
 }
 
-.portifolio-content-root.devops {
-    background-color: rgb(64, 224, 136);
-}
-
-.portifolio-content-root .title-root {
+.portifolio-content-root .meta {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -29,24 +27,60 @@
     width: 90%;
 }
 
-.portifolio-content-root h2, p {
+.portifolio-content-root .meta h2, p {
     color: white;
     text-align: left;
 }
 
-.portifolio-content-root .title-root h2 {
+.portifolio-content-root .meta h2 {
     font-size: 1.5rem;
 }
 
-.portifolio-content-root .ant-carousel {
-    /* height: 150px; */
+.portifolio-content-root .meta .descr {
     width: 100%;
 }
 
-.portifolio-content-root .ant-carousel .slick-track {
-    height: 150px;
+.portifolio-content-root .tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: left;
+    margin-bottom: 30px;
 }
 
-/* .portifolio-content-root .ant-carousel .carousel {
-    height: 150px;
-} */
+.portifolio-content-root .tech span {
+    background-color: #ffd460;
+    border-radius: 7px;
+    color: #2d4059;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .portifolio-content-root {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        width: 60%;
+        padding-top: 20px;
+        border-bottom: 1px dashed gray;
+    }
+
+    .portifolio-content-root img {
+        /* height: 300px; */
+        margin-right: 50px;
+        margin-bottom: 30px;
+        max-width: 250px;
+        object-fit: contain;
+    }
+
+    .portifolio-content-root .meta .descr {
+        width: 80%;
+    }
+}

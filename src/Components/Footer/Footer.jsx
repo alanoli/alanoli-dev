@@ -5,9 +5,14 @@ import './Footer.css'
 
 export default function Footer({ aboutRef, contactRef, stackRef }) {
     const history = useHistory()
-    
+
     function goToRef(ref) {
         ref.current.scrollIntoView({ behavior: "smooth", block: "start" })
+    }
+
+    function pushTo(page) {
+        window.scroll(0,0)
+        history.push(page)
     }
 
     return (
@@ -16,8 +21,9 @@ export default function Footer({ aboutRef, contactRef, stackRef }) {
             <div className="middle">
                 <div className="links">
                     {/* <p onClick={() => goToRef(contactRef)} className="link text">Contato</p> */}
-                    <p onClick={() => goToRef(stackRef)} className="link text">Tecnologias</p>
+                    <p onClick={() => pushTo("/stack")} className="link text">Tecnologias</p>
                     <p onClick={() => goToRef(aboutRef)} className="link text">Sobre</p>
+                    <p onClick={() => pushTo("/projects")} className="link text">Portifólio</p>
                 </div>
                 <div className="links">
                     <p>+55 (31) 99621-9428</p>
@@ -25,6 +31,6 @@ export default function Footer({ aboutRef, contactRef, stackRef }) {
                 </div>
             </div>
             <div className="footer-footer text">Copyright @ 2020 Alan Oliveira</div>
-        </div>
+        </div >
     )
 }

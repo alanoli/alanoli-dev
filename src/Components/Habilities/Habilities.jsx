@@ -12,6 +12,12 @@ import tech6 from "../../Assets/docker.png"
 
 export default function Habilities({ stackRef }) {
 	const history = useHistory()
+
+	function pushTo(page) {
+        window.scroll(0,0)
+        history.push(page)
+	}
+	
 	return (
 		<Parallax
 			blur={2}
@@ -31,7 +37,7 @@ export default function Habilities({ stackRef }) {
 					<img src={tech5} className="hability-item" alt="photo" />
 					<img src={tech6} className="hability-item" alt="photo" />
 				</div>
-				{/* <p onClick={() => history.push("/stack")} >Saiba mais</p> */}
+				<p onClick={() => pushTo("/stack")} >Saiba mais</p>
 			</div>
 		</Parallax>
 	)
