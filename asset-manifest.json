@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alanoli-dev/static/css/main.5863f87e.chunk.css",
+    "main.css": "/alanoli-dev/static/css/main.574af8d1.chunk.css",
     "main.js": "/alanoli-dev/static/js/main.6778020e.chunk.js",
     "main.js.map": "/alanoli-dev/static/js/main.6778020e.chunk.js.map",
     "runtime-main.js": "/alanoli-dev/static/js/runtime-main.78104ba5.js",
@@ -9,10 +9,10 @@
     "static/js/2.4b5215af.chunk.js": "/alanoli-dev/static/js/2.4b5215af.chunk.js",
     "static/js/2.4b5215af.chunk.js.map": "/alanoli-dev/static/js/2.4b5215af.chunk.js.map",
     "index.html": "/alanoli-dev/index.html",
-    "precache-manifest.9bcd6adf4a5eb3b42f8bc92654840948.js": "/alanoli-dev/precache-manifest.9bcd6adf4a5eb3b42f8bc92654840948.js",
+    "precache-manifest.be11b87afc972d280ca1a0b13f134288.js": "/alanoli-dev/precache-manifest.be11b87afc972d280ca1a0b13f134288.js",
     "service-worker.js": "/alanoli-dev/service-worker.js",
     "static/css/2.7bc72fb5.chunk.css.map": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css.map",
-    "static/css/main.5863f87e.chunk.css.map": "/alanoli-dev/static/css/main.5863f87e.chunk.css.map",
+    "static/css/main.574af8d1.chunk.css.map": "/alanoli-dev/static/css/main.574af8d1.chunk.css.map",
     "static/js/2.4b5215af.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.4b5215af.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/alanoli-dev/static/media/background.9e977f31.jpg",
     "static/media/background_2.jpg": "/alanoli-dev/static/media/background_2.bd346872.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.78104ba5.js",
     "static/css/2.7bc72fb5.chunk.css",
     "static/js/2.4b5215af.chunk.js",
-    "static/css/main.5863f87e.chunk.css",
+    "static/css/main.574af8d1.chunk.css",
     "static/js/main.6778020e.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "611bcc6afea6d52f4820f0f0082de0db",
+    "revision": "f3c20326a90ada0166136a3ae33b9714",
     "url": "/alanoli-dev/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css"
   },
   {
-    "revision": "fafcb50fddf7e5debc0b",
-    "url": "/alanoli-dev/static/css/main.5863f87e.chunk.css"
+    "revision": "2b81bae9c2899299d935",
+    "url": "/alanoli-dev/static/css/main.574af8d1.chunk.css"
   },
   {
     "revision": "71e45f56528b4e31e949",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alanoli-dev/static/js/2.4b5215af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fafcb50fddf7e5debc0b",
+    "revision": "2b81bae9c2899299d935",
     "url": "/alanoli-dev/static/js/main.6778020e.chunk.js"
   },
   {
