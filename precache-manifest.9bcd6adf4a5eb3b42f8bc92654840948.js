@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3712cf9da948c056c90f437c27d6837",
+    "revision": "611bcc6afea6d52f4820f0f0082de0db",
     "url": "/alanoli-dev/index.html"
   },
   {
-    "revision": "2e47d59be1607c20c5f2",
+    "revision": "71e45f56528b4e31e949",
     "url": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css"
   },
   {
-    "revision": "87ca4e2e80d96ba29484",
-    "url": "/alanoli-dev/static/css/main.b068da09.chunk.css"
+    "revision": "fafcb50fddf7e5debc0b",
+    "url": "/alanoli-dev/static/css/main.5863f87e.chunk.css"
   },
   {
-    "revision": "2e47d59be1607c20c5f2",
-    "url": "/alanoli-dev/static/js/2.d11ce4b8.chunk.js"
+    "revision": "71e45f56528b4e31e949",
+    "url": "/alanoli-dev/static/js/2.4b5215af.chunk.js"
   },
   {
     "revision": "0001512ff5376eafd7f76369861b7a6e",
-    "url": "/alanoli-dev/static/js/2.d11ce4b8.chunk.js.LICENSE.txt"
+    "url": "/alanoli-dev/static/js/2.4b5215af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87ca4e2e80d96ba29484",
-    "url": "/alanoli-dev/static/js/main.89e855dd.chunk.js"
+    "revision": "fafcb50fddf7e5debc0b",
+    "url": "/alanoli-dev/static/js/main.6778020e.chunk.js"
   },
   {
     "revision": "e65cc8df7f82448b4808",
     "url": "/alanoli-dev/static/js/runtime-main.78104ba5.js"
   },
   {
+    "revision": "9e977f3194c410d0c8d7fc6aba859e0c",
+    "url": "/alanoli-dev/static/media/background.9e977f31.jpg"
+  },
+  {
     "revision": "bd34687255a10e4b0d4707537d160fbd",
     "url": "/alanoli-dev/static/media/background_2.bd346872.jpg"
+  },
+  {
+    "revision": "0d549b72547baa212886fb7dc07989e5",
+    "url": "/alanoli-dev/static/media/bethehero_portifolio.0d549b72.png"
   },
   {
     "revision": "d13b10bdf967ef76c86893feab4f7579",
@@ -70,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2afcb71a8360d7da78618911811fcc5d",
     "url": "/alanoli-dev/static/media/sql.2afcb71a.png"
+  },
+  {
+    "revision": "8e2df5afb6b837e648eeab75463a0928",
+    "url": "/alanoli-dev/static/media/webapp.8e2df5af.gif"
   }
 ]);

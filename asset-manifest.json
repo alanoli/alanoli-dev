@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/alanoli-dev/static/css/main.b068da09.chunk.css",
-    "main.js": "/alanoli-dev/static/js/main.89e855dd.chunk.js",
-    "main.js.map": "/alanoli-dev/static/js/main.89e855dd.chunk.js.map",
+    "main.css": "/alanoli-dev/static/css/main.5863f87e.chunk.css",
+    "main.js": "/alanoli-dev/static/js/main.6778020e.chunk.js",
+    "main.js.map": "/alanoli-dev/static/js/main.6778020e.chunk.js.map",
     "runtime-main.js": "/alanoli-dev/static/js/runtime-main.78104ba5.js",
     "runtime-main.js.map": "/alanoli-dev/static/js/runtime-main.78104ba5.js.map",
     "static/css/2.7bc72fb5.chunk.css": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css",
-    "static/js/2.d11ce4b8.chunk.js": "/alanoli-dev/static/js/2.d11ce4b8.chunk.js",
-    "static/js/2.d11ce4b8.chunk.js.map": "/alanoli-dev/static/js/2.d11ce4b8.chunk.js.map",
+    "static/js/2.4b5215af.chunk.js": "/alanoli-dev/static/js/2.4b5215af.chunk.js",
+    "static/js/2.4b5215af.chunk.js.map": "/alanoli-dev/static/js/2.4b5215af.chunk.js.map",
     "index.html": "/alanoli-dev/index.html",
-    "precache-manifest.4989886fe51fcf7208aa7678de916a29.js": "/alanoli-dev/precache-manifest.4989886fe51fcf7208aa7678de916a29.js",
+    "precache-manifest.9bcd6adf4a5eb3b42f8bc92654840948.js": "/alanoli-dev/precache-manifest.9bcd6adf4a5eb3b42f8bc92654840948.js",
     "service-worker.js": "/alanoli-dev/service-worker.js",
     "static/css/2.7bc72fb5.chunk.css.map": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css.map",
-    "static/css/main.b068da09.chunk.css.map": "/alanoli-dev/static/css/main.b068da09.chunk.css.map",
-    "static/js/2.d11ce4b8.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.d11ce4b8.chunk.js.LICENSE.txt",
+    "static/css/main.5863f87e.chunk.css.map": "/alanoli-dev/static/css/main.5863f87e.chunk.css.map",
+    "static/js/2.4b5215af.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.4b5215af.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/alanoli-dev/static/media/background.9e977f31.jpg",
     "static/media/background_2.jpg": "/alanoli-dev/static/media/background_2.bd346872.jpg",
+    "static/media/bethehero_portifolio.png": "/alanoli-dev/static/media/bethehero_portifolio.0d549b72.png",
     "static/media/builds_portifolio.png": "/alanoli-dev/static/media/builds_portifolio.d13b10bd.png",
     "static/media/css3.png": "/alanoli-dev/static/media/css3.b30a2d2e.png",
     "static/media/docker.png": "/alanoli-dev/static/media/docker.d2a9e9a3.png",
@@ -24,13 +26,14 @@
     "static/media/Header.css": "/alanoli-dev/static/media/keyboard_2.7a2e30dd.png",
     "static/media/meme_portifolio.png": "/alanoli-dev/static/media/meme_portifolio.003bb930.png",
     "static/media/react.png": "/alanoli-dev/static/media/react.61a30cd4.png",
-    "static/media/sql.png": "/alanoli-dev/static/media/sql.2afcb71a.png"
+    "static/media/sql.png": "/alanoli-dev/static/media/sql.2afcb71a.png",
+    "static/media/webapp.gif": "/alanoli-dev/static/media/webapp.8e2df5af.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.78104ba5.js",
     "static/css/2.7bc72fb5.chunk.css",
-    "static/js/2.d11ce4b8.chunk.js",
-    "static/css/main.b068da09.chunk.css",
-    "static/js/main.89e855dd.chunk.js"
+    "static/js/2.4b5215af.chunk.js",
+    "static/css/main.5863f87e.chunk.css",
+    "static/js/main.6778020e.chunk.js"
   ]
 }
