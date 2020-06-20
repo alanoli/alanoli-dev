@@ -1,0 +1,56 @@
+.wpp-root {
+    height: 50px;
+    width: 50vw;
+
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.wpp-root #logo {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+
+    cursor: pointer;
+}
+
+.wpp-root #message {
+    /* height: 100%; */
+    font-size: 1rem;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+
+    /* background-color: white; */
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px 5px;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .wpp-root #message {
+        visibility: hidden;
+    }
+
+    #logo:hover + #message {
+        visibility: visible;
+    }
+}
+
+/* #b {
+    display: none;
+}
+
+#content:hover~#b{
+    display: block;
+} */

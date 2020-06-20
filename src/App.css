@@ -1,3 +1,7 @@
+#root {
+    background-color: #2d4059;
+}
+
 .main-page {
     display: flex;
     flex-direction: column;
@@ -5,8 +9,6 @@
     align-items: center;
 
     font-family: 'Roboto Slab', serif;
-
-    background-color: #2d4059;
 }
 
 .main-item {

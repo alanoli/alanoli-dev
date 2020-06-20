@@ -1,16 +1,18 @@
 import React, { useRef } from "react"
-import { Route, BrowserRouter, Switch, Redirect, HashRouter } from "react-router-dom"
+import { Route, Switch, Redirect, HashRouter } from "react-router-dom"
 import "./App.css"
 import "../node_modules/antd/dist/antd.css"
 
 import Header from "./Components/Header/Header"
 import SubHeader from "./Components/SubHeader/SubHeader"
-import Contact from "./Components/Contact/Contact"
+// import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
 import Content from "./Components/Content/Content"
+import AboutPage from "./Components/About/AboutPage"
 import About from "./Components/About/About"
 import Habilities from "./Components/Habilities/Habilities"
 import Stack from "./Components/Stack/Stack"
+import WhatsAppButton from "./Components/WhatsAppButton/WhatsAppButton"
 
 
 export default function App() {
@@ -33,9 +35,15 @@ export default function App() {
 				</Route>
 				<Route exact path="/stack">
 					<Stack />
+					<WhatsAppButton />
 				</Route>
 				<Route exact path="/projects">
 					<Content />
+					<WhatsAppButton />
+				</Route>
+				<Route exact path="/about">
+					<AboutPage />
+					<WhatsAppButton />
 				</Route>
 				<Redirect to="/" />
 			</Switch>

@@ -21,12 +21,12 @@ export default function SubHeader({ stackRef, aboutRef }) {
 					<div className="reference">
 						<p className="projects-descr">Projetos</p>
 						{/* <p onClick={() => stackRef.current.scrollIntoView({ behavior: "smooth", block: "start" })} className="more">Saiba mais</p> */}
-						<p onClick={() => history.push("/projects")} className="more">Saiba mais</p>
+						<p onClick={() => { window.scroll(0,0); history.push("/projects") }} className="more">Saiba mais</p>
 					</div>
 					<div className="project-content">
 						<img src={buildsPortifolio} alt="" />
-						<img src={memePortifolio} alt="" />
 						<img src={betheheroPortifolio} alt="" />
+						<img src={memePortifolio} alt="" />
 						{/* <Carousel effect={"fade"} autoplay autoplaySpeed={3000}>
 								<img src={memePortifolio} alt="" />
 								<img src={buildsPortifolio} alt="" />
