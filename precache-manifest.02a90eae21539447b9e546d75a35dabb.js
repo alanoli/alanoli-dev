@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3c20326a90ada0166136a3ae33b9714",
+    "revision": "bcb91c4172b78332dfb1911f9328d88f",
     "url": "/alanoli-dev/index.html"
   },
   {
-    "revision": "71e45f56528b4e31e949",
+    "revision": "712bded31c3fb5035351",
     "url": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css"
   },
   {
-    "revision": "2b81bae9c2899299d935",
-    "url": "/alanoli-dev/static/css/main.574af8d1.chunk.css"
+    "revision": "1d8a40301fa63bc17d59",
+    "url": "/alanoli-dev/static/css/main.8697f071.chunk.css"
   },
   {
-    "revision": "71e45f56528b4e31e949",
-    "url": "/alanoli-dev/static/js/2.4b5215af.chunk.js"
+    "revision": "712bded31c3fb5035351",
+    "url": "/alanoli-dev/static/js/2.b17bcdcd.chunk.js"
   },
   {
     "revision": "0001512ff5376eafd7f76369861b7a6e",
-    "url": "/alanoli-dev/static/js/2.4b5215af.chunk.js.LICENSE.txt"
+    "url": "/alanoli-dev/static/js/2.b17bcdcd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b81bae9c2899299d935",
-    "url": "/alanoli-dev/static/js/main.6778020e.chunk.js"
+    "revision": "1d8a40301fa63bc17d59",
+    "url": "/alanoli-dev/static/js/main.46bebbc8.chunk.js"
   },
   {
     "revision": "e65cc8df7f82448b4808",
@@ -82,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e2df5afb6b837e648eeab75463a0928",
     "url": "/alanoli-dev/static/media/webapp.8e2df5af.gif"
+  },
+  {
+    "revision": "953a8c3e23cfd7540f2741454b1f61ea",
+    "url": "/alanoli-dev/static/media/whatsapp-logo.953a8c3e.png"
   }
 ]);
