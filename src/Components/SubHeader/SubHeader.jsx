@@ -15,29 +15,20 @@ export default function SubHeader({ stackRef, aboutRef }) {
 		<div className="subheader">
 			<div className="sub-root">
 				<div className="title">
-					<p className="">Soluções que geram valor</p>
+					<p className="t1">Hi I'm Alan</p>
+					<p className="t2">I design and code Web Interfaces</p>
 				</div>
 				<div className="projects">
 					<div className="reference">
-						<p className="projects-descr">Projetos</p>
-						{/* <p onClick={() => stackRef.current.scrollIntoView({ behavior: "smooth", block: "start" })} className="more">Saiba mais</p> */}
-						<p onClick={() => { window.scroll(0,0); history.push("/projects") }} className="more">Saiba mais</p>
+						<p className="projects-descr">View portifolio</p>
 					</div>
 					<div className="project-content">
-						<img src={buildsPortifolio} alt="" />
-						<img src={betheheroPortifolio} alt="" />
-						<img src={memePortifolio} alt="" />
-						{/* <Carousel effect={"fade"} autoplay autoplaySpeed={3000}>
-								<img src={memePortifolio} alt="" />
-								<img src={buildsPortifolio} alt="" />
-							</Carousel> */}
+						<div className="projectimages">
+							<img src={betheheroPortifolio} alt=""/>
+						</div>
+						<p className="proj-descr"></p>
 					</div>
 				</div>
-				{/* <div className="nav-below">
-					<DownOutlined
-						onClick={() => stackRef.current.scrollIntoView({ behavior: "smooth", block: "start" })}
-					/>
-				</div> */}
 			</div>
 		</div>
 	)
