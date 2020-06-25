@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcb91c4172b78332dfb1911f9328d88f",
+    "revision": "4a77b04c431e3bb2e8054efeaa25dd25",
     "url": "/alanoli-dev/index.html"
   },
   {
-    "revision": "712bded31c3fb5035351",
+    "revision": "365d382145f9a0daba27",
     "url": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css"
   },
   {
-    "revision": "1d8a40301fa63bc17d59",
-    "url": "/alanoli-dev/static/css/main.8697f071.chunk.css"
+    "revision": "bf5c8111f72d249e3b80",
+    "url": "/alanoli-dev/static/css/main.eceb461a.chunk.css"
   },
   {
-    "revision": "712bded31c3fb5035351",
-    "url": "/alanoli-dev/static/js/2.b17bcdcd.chunk.js"
+    "revision": "365d382145f9a0daba27",
+    "url": "/alanoli-dev/static/js/2.960752e3.chunk.js"
   },
   {
-    "revision": "0001512ff5376eafd7f76369861b7a6e",
-    "url": "/alanoli-dev/static/js/2.b17bcdcd.chunk.js.LICENSE.txt"
+    "revision": "80fa05aac9f80c71b5f99ecec6ead10d",
+    "url": "/alanoli-dev/static/js/2.960752e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1d8a40301fa63bc17d59",
-    "url": "/alanoli-dev/static/js/main.46bebbc8.chunk.js"
+    "revision": "bf5c8111f72d249e3b80",
+    "url": "/alanoli-dev/static/js/main.182d6a40.chunk.js"
   },
   {
     "revision": "e65cc8df7f82448b4808",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9e977f3194c410d0c8d7fc6aba859e0c",
     "url": "/alanoli-dev/static/media/background.9e977f31.jpg"
-  },
-  {
-    "revision": "bd34687255a10e4b0d4707537d160fbd",
-    "url": "/alanoli-dev/static/media/background_2.bd346872.jpg"
   },
   {
     "revision": "0d549b72547baa212886fb7dc07989e5",
@@ -52,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alanoli-dev/static/media/docker.d2a9e9a3.png"
   },
   {
-    "revision": "fb52ac22e7db1984993e56194a4d9552",
-    "url": "/alanoli-dev/static/media/fotoPerfil.fb52ac22.png"
-  },
-  {
     "revision": "cace8f8339506e4137693a5d1c33a8f3",
     "url": "/alanoli-dev/static/media/html.cace8f83.png"
   },
@@ -64,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alanoli-dev/static/media/javascript.bdd02971.png"
   },
   {
-    "revision": "7a2e30dd288ae3ed1bfc90207f729a66",
-    "url": "/alanoli-dev/static/media/keyboard_2.7a2e30dd.png"
+    "revision": "c2be67e6bb8130e946f645ef816853af",
+    "url": "/alanoli-dev/static/media/me3.c2be67e6.png"
   },
   {
     "revision": "003bb93047e56eaa8d667ff53f2309e7",
@@ -78,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2afcb71a8360d7da78618911811fcc5d",
     "url": "/alanoli-dev/static/media/sql.2afcb71a.png"
+  },
+  {
+    "revision": "3e3e762abeaab1c8fdee80cf85903a5a",
+    "url": "/alanoli-dev/static/media/tech_back.3e3e762a.png"
   },
   {
     "revision": "8e2df5afb6b837e648eeab75463a0928",

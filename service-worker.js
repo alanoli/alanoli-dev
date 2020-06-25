@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/alanoli-dev/precache-manifest.02a90eae21539447b9e546d75a35dabb.js"
+  "/alanoli-dev/precache-manifest.23f8320ef570dcf42c387877292d28c8.js"
 );
 
 self.addEventListener('message', (event) => {
