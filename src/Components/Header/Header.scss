@@ -1,0 +1,49 @@
+@import "../App/MainStyle.scss";
+
+.header-main {
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+
+    @include flex-row-centered;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+
+    .title-root {
+        height: 100%;
+        @include flex-column-centered;
+        .title {
+            color: white;
+            margin: 0;
+            font-size: large;
+        }
+    }
+
+    .menus {
+        height: 100%;
+        color: white;
+        
+        @include flex-row-centered;
+        justify-content: right;
+        align-items: center;
+
+        margin: 0;
+
+        .contact {
+            background-color: $primary-color-1;
+            padding: 5px 10px;
+        }
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    @media only screen and (min-width: $desktop-min-width) {
+        .desktop-menu {
+            display: block;
+        }
+    }
+}

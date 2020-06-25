@@ -1,5 +1,7 @@
 #root {
-    background-color: #2d4059;
+    /* background: -webkit-linear-gradient(to bottom, #2b4450ff, #497285ff);
+    background: linear-gradient(to bottom, #2b4450ff, #497285ff); */
+    z-index: -2;
 }
 
 .main-page {

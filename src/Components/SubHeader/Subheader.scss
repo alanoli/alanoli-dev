@@ -1,0 +1,75 @@
+@import "../App/MainStyle.scss";
+
+
+.subheader {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    background: -webkit-linear-gradient(to bottom, #2b4450ff 30%, #497285ff 70%);
+    background: linear-gradient(to bottom, #2b4450ff 30%, #497285ff 70%);
+
+    height: 100vh;
+
+    overflow: hidden;
+    z-index: -1;
+
+    .sub-root {
+        padding-top: 70px; /* Header */
+        padding: 70px 10px 0 10px;
+        height: 100%;
+        max-height: 100%;
+        width: 100%;
+
+        background-image: url("../../Assets/tech_back.png");
+        background-position: center;
+        background-size: cover;
+    
+        @include flex-column-centered;
+
+        .title {
+            flex: 1;
+            padding: 0 20px;
+
+            @include flex-column-centered;
+            align-items: left;
+
+            width: 100%;
+
+            .t1 {
+                font-size: 25px;
+                color: $primary-color-1;
+            }
+
+            .t2 {
+                font-size: 18px;
+            }
+        }
+
+        .projects {
+            flex: 3;
+            @include flex-column-centered;
+            align-items: center;
+
+            width: 100%;
+
+            .reference {
+                .projects-descr {
+                    color: $primary-color-1;
+                }
+            }
+
+            .project-content {
+                width: 100%;
+
+                .projectimages img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+
+                    @media only screen and (min-width: $desktop-min-width) {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,18 +1,17 @@
 import React, { useRef } from "react"
 import { Route, Switch, Redirect, HashRouter } from "react-router-dom"
 import "./App.css"
-import "../node_modules/antd/dist/antd.css"
+import "../../../node_modules/antd/dist/antd.css"
 
-import Header from "./Components/Header/Header"
-import SubHeader from "./Components/SubHeader/SubHeader"
-// import Contact from "./Components/Contact/Contact"
-import Footer from "./Components/Footer/Footer"
-import Content from "./Components/Content/Content"
-import AboutPage from "./Components/About/AboutPage"
-import About from "./Components/About/About"
-import Habilities from "./Components/Habilities/Habilities"
-import Stack from "./Components/Stack/Stack"
-import WhatsAppButton from "./Components/WhatsAppButton/WhatsAppButton"
+import Header from "../Header/Header"
+import SubHeader from "../SubHeader/SubHeader"
+import Footer from "../Footer/Footer"
+import Content from "../Content/Content"
+import AboutPage from "../About/AboutPage"
+import About from "../About/About"
+import Habilities from "../Habilities/Habilities"
+import Stack from "../Stack/Stack"
+import WhatsAppButton from "../WhatsAppButton/WhatsAppButton"
 
 
 export default function App() {
