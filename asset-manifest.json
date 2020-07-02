@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/alanoli-dev/static/css/main.eceb461a.chunk.css",
-    "main.js": "/alanoli-dev/static/js/main.182d6a40.chunk.js",
-    "main.js.map": "/alanoli-dev/static/js/main.182d6a40.chunk.js.map",
+    "main.css": "/alanoli-dev/static/css/main.2bdcdc01.chunk.css",
+    "main.js": "/alanoli-dev/static/js/main.fa4a8e4b.chunk.js",
+    "main.js.map": "/alanoli-dev/static/js/main.fa4a8e4b.chunk.js.map",
     "runtime-main.js": "/alanoli-dev/static/js/runtime-main.78104ba5.js",
     "runtime-main.js.map": "/alanoli-dev/static/js/runtime-main.78104ba5.js.map",
     "static/css/2.7bc72fb5.chunk.css": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css",
-    "static/js/2.960752e3.chunk.js": "/alanoli-dev/static/js/2.960752e3.chunk.js",
-    "static/js/2.960752e3.chunk.js.map": "/alanoli-dev/static/js/2.960752e3.chunk.js.map",
+    "static/js/2.41ae7051.chunk.js": "/alanoli-dev/static/js/2.41ae7051.chunk.js",
+    "static/js/2.41ae7051.chunk.js.map": "/alanoli-dev/static/js/2.41ae7051.chunk.js.map",
     "index.html": "/alanoli-dev/index.html",
-    "precache-manifest.23f8320ef570dcf42c387877292d28c8.js": "/alanoli-dev/precache-manifest.23f8320ef570dcf42c387877292d28c8.js",
+    "precache-manifest.33a03420d9afdf28cb622f87b47ec438.js": "/alanoli-dev/precache-manifest.33a03420d9afdf28cb622f87b47ec438.js",
     "service-worker.js": "/alanoli-dev/service-worker.js",
     "static/css/2.7bc72fb5.chunk.css.map": "/alanoli-dev/static/css/2.7bc72fb5.chunk.css.map",
-    "static/css/main.eceb461a.chunk.css.map": "/alanoli-dev/static/css/main.eceb461a.chunk.css.map",
-    "static/js/2.960752e3.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.960752e3.chunk.js.LICENSE.txt",
-    "static/media/background.jpg": "/alanoli-dev/static/media/background.9e977f31.jpg",
+    "static/css/main.2bdcdc01.chunk.css.map": "/alanoli-dev/static/css/main.2bdcdc01.chunk.css.map",
+    "static/js/2.41ae7051.chunk.js.LICENSE.txt": "/alanoli-dev/static/js/2.41ae7051.chunk.js.LICENSE.txt",
     "static/media/bethehero_portifolio.png": "/alanoli-dev/static/media/bethehero_portifolio.0d549b72.png",
     "static/media/builds_portifolio.png": "/alanoli-dev/static/media/builds_portifolio.d13b10bd.png",
     "static/media/css3.png": "/alanoli-dev/static/media/css3.b30a2d2e.png",
@@ -32,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.78104ba5.js",
     "static/css/2.7bc72fb5.chunk.css",
-    "static/js/2.960752e3.chunk.js",
-    "static/css/main.eceb461a.chunk.css",
-    "static/js/main.182d6a40.chunk.js"
+    "static/js/2.41ae7051.chunk.js",
+    "static/css/main.2bdcdc01.chunk.css",
+    "static/js/main.fa4a8e4b.chunk.js"
   ]
 }
