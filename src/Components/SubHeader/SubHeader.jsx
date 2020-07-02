@@ -23,8 +23,8 @@ export default function SubHeader({ stackRef, aboutRef }) {
 						<p onClick={() => { window.scroll(0,0); history.push("/projects")} } className="projects-descr">View portifolio</p>
 					</div>
 					<div className="project-content">
-						<img src={betheheroPortifolio} alt="" />
 						<img src={buildsPortifolio} alt="" />
+						<img src={betheheroPortifolio} alt="" />
 						<img src={memePortifolio} alt="" />
 						<p className="proj-descr"></p>
 					</div>
