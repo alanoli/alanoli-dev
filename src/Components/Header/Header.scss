@@ -2,10 +2,12 @@
 
 .header-main {
     position: absolute;
+    z-index: 10;
+    
     width: 100vw;
     height: 70px;
 
-    @include flex-row-centered;
+    @include flex-centered(row);
     justify-content: space-between;
     align-items: center;
 
@@ -13,9 +15,9 @@
 
     .title-root {
         height: 100%;
-        @include flex-column-centered;
+        @include flex-centered(column);
         .title {
-            color: white;
+            color: $primary-color-2;
             margin: 0;
             font-size: large;
         }
@@ -23,9 +25,9 @@
 
     .menus {
         height: 100%;
-        color: white;
+        color: $primary-color-2;
         
-        @include flex-row-centered;
+        @include flex-centered(row);
         justify-content: right;
         align-items: center;
 
@@ -34,6 +36,7 @@
         .contact {
             background-color: $primary-color-1;
             padding: 5px 10px;
+            color: $primary-color-4;
         }
     }
 

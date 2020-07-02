@@ -13,12 +13,12 @@ export default () => {
     return (
         <div className="header-main">
             <div className="title-root">
-                <p className="title">Alan Oli</p>
+                <p onClick={() => history.push("/")} className="title">Alan Oli</p>
             </div>
             <div className="menus">
                 <div className="desktop-menu home">Home</div>
                 <div className="desktop-menu about">About</div>
-                <div className="contact">Contact</div>
+                <div onClick={() => history.push("/about")} className="contact">Contact</div>
             </div>
         </div>
         // <PageHeader

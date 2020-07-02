@@ -1,7 +1,7 @@
 @import "../App/MainStyle.scss";
 
 .habilities {
-    @include flex-column-centered;
+    @include flex-centered(column);
     align-items: center;
 
     width: 100%;

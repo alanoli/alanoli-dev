@@ -23,13 +23,13 @@
         background-position: center;
         background-size: cover;
     
-        @include flex-column-centered;
+        @include flex-centered(column);
 
         .title {
             flex: 1;
             padding: 0 20px;
 
-            @include flex-column-centered;
+            @include flex-centered(column);
             align-items: left;
 
             width: 100%;
@@ -46,7 +46,7 @@
 
         .projects {
             flex: 3;
-            @include flex-column-centered;
+            @include flex-centered(column);
             align-items: center;
 
             width: 100%;

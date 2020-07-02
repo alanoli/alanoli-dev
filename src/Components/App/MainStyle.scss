@@ -5,14 +5,8 @@ $primary-color-4: #2b4450;
 
 $desktop-min-width: 768px;
 
-@mixin flex-column-centered {
+@mixin flex-centered($direction) {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-@mixin flex-row-centered {
-    display: flex;
-    flex-direction: row;
+    flex-direction: $direction;
     justify-content: center;
 }

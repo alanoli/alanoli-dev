@@ -1,3 +1,5 @@
+@import "../App/MainStyle.scss";
+
 .content-root {
     display: flex;
     flex-direction: column;
@@ -7,14 +9,14 @@
     height: auto;
     font-family: 'Roboto Slab', serif;
 
-    background-color: #2d4059;
-}
+    background-color: $primary-color-4;
 
-.content-root h1 {
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    margin: 0;
+    h1 {
+        color: $primary-color-2;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
 }
 
 .content-item {

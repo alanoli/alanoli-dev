@@ -1,0 +1,22 @@
+@import "../App/MainStyle.scss";
+
+.page-root {
+    min-height: 100vh;
+    background-color: $primary-color-4;
+
+    @include flex-centered(column);
+    align-items: center;
+
+    .contact {
+        padding: 0 0 30px 30px;
+        width: 100%;
+        background-color: $primary-color-2;
+        p {
+            color: $primary-color-4;
+            margin: 0;
+        }
+        h1 {
+            color: $primary-color-4;
+        }
+    }
+}

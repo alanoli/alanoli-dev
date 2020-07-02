@@ -9,7 +9,7 @@ export default function About({ aboutRef }) {
             <div className="about-container">
                 {/* <h1>Sobre mim</h1> */}
                 <img src={foto} alt="photo" />
-                <p>Desenvolvedor de Aplicações Web e Sites</p>
+                <p>Applications and Web Sites developer</p>
             </div>
         </div>
     )

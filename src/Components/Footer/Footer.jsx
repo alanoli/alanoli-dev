@@ -1,7 +1,7 @@
 import React from 'react'
 import { useHistory } from "react-router-dom"
 
-import './Footer.css'
+import './Footer.scss'
 
 export default function Footer() {
     const history = useHistory()
@@ -16,9 +16,9 @@ export default function Footer() {
             <div className="main-title text">Alan Oliveira</div>
             <div className="middle">
                 <div className="links">
-                    <p onClick={() => pushTo("/stack")} className="link text">Tecnologias</p>
-                    <p onClick={() => pushTo("/about")} className="link text">Sobre</p>
-                    <p onClick={() => pushTo("/projects")} className="link text">Portifólio</p>
+                    <p onClick={() => pushTo("/stack")} className="link text">Technology</p>
+                    <p onClick={() => pushTo("/about")} className="link text">About</p>
+                    <p onClick={() => pushTo("/projects")} className="link text">Portifolio</p>
                 </div>
                 <div className="links">
                     <p>+55 (31) 99621-9428</p>

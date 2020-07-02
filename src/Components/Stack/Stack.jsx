@@ -1,7 +1,6 @@
 import React from "react"
-import "./Stack.css"
+import "./Stack.scss"
 
-import img from "../../Assets/background.jpg"
 import webApp from "../../Assets/webapp.gif"
 import webSite from "../../Assets/builds_portifolio.png"
 
@@ -28,42 +27,38 @@ export default function Stack() {
 
     return (
         <div className="stack-root">
-            <h1 className="title">Serviços e tecnologias</h1>
+            <h1 className="title">Services and Technologies</h1>
             <div className="stack-type">
                 <h1 className="type-title">Web Sites</h1>
                 <img src={webSite} alt="" />
-                <h2 className="definition">Definição</h2>
-                <p className="descr">{`Web Sites são páginas na internet exibidas
-                com conteúdo estático. Ideal para mostrar o seu trabalho para o mundo.
-                Além disso, o seu desenvolvimento `}</p>
-                <h2 className="definition">Aplicabilidade</h2>
-                <p className="descr">{`São ideias para exibição de conteúdos estáticos
-                 - textos, imagens e videos - ou seja, conteúdos fixos nas páginas do site.`}</p>
-                <h2 className="definition">Tecnologias usadas</h2>
+                <h2 className="definition">Definition</h2>
+                <p className="descr">{`Web Sites are web pages displayed with static content.
+                It's ideal to show your work to the world.`}</p>
+                <h2 className="definition">Applicability</h2>
+                <p className="descr">{`Are ideally used for display static content - text, images and videos
+                 - that is, content that does not change often and is not interactable with the user.`}</p>
+                <h2 className="definition">Applied technologies</h2>
                 <div className="tech">
                     {webSiteTech.map((item) => {
                         return <span>{item}</span>
                     })}
                 </div>
-                {/* <p className="descr"></p> */}
             </div>
             <div className="stack-type">
-                <h1 className="type-title">Aplicações Web</h1>
+                <h1 className="type-title">Web Applications</h1>
                 <img src={webApp} alt="" />
-                <h2 className="definition">Definição</h2>
-                <p className="descr">{`As Aplicações são páginas dinâmicas e ricas em
-                funcionalidades. Se assemelham a programas e aplicativos.`}</p>
-                <h2 className="definition">Aplicabilidade</h2>
-                <p className="descr">{`Utilizadas em contextos que demandam mais interatividade
-                com os seus usuários. Nesses casos entram e-commerces, aplicativos,
-                integrações com meios de pagamentos.`}</p>
-                <h2 className="definition">Tecnologias usadas</h2>
+                <h2 className="definition">Definition</h2>
+                <p className="descr">{`The applications are dynamic pages rich in funcionalities.
+                They look like programs and apps`}</p>
+                <h2 className="definition">Applicability</h2>
+                <p className="descr">{`They're used in contexts that demand more interativity with the end-user.
+                Some exemples are e-commerces, applications and integrations with payment methods.`}</p>
+                <h2 className="definition">Applied technologies</h2>
                 <div className="tech">
                     {webAppTech.map((item) => {
                         return <span>{item}</span>
                     })}
                 </div>
-                {/* <p className="descr"></p> */}
             </div>
         </div>
     )

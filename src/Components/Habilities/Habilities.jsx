@@ -1,6 +1,6 @@
 import React from "react"
 import { useHistory } from "react-router-dom"
-import { Parallax } from "react-parallax"
+// import { Parallax } from "react-parallax"
 
 import "./Habilities.scss"
 import tech1 from "../../Assets/html.png"

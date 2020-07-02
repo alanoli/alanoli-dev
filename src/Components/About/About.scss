@@ -7,7 +7,7 @@
     background-color: $primary-color-2;
     
     .about-container {
-        @include flex-row-centered;
+        @include flex-centered(row);
         align-items: center;
 
         width: 80%;

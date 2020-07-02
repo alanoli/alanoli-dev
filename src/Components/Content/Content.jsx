@@ -2,7 +2,7 @@ import React from 'react'
 import { useHistory } from "react-router-dom"
 import PortifolioContent from "../PortifolioContent/PortifolioContent"
 
-import './Content.css'
+import './Content.scss'
 
 const memePortifolio = require("../../Assets/meme_portifolio.png")
 const buildsPortifolio = require("../../Assets/builds_portifolio.png")
@@ -13,27 +13,26 @@ export default function Content() {
 
 	return (
 		<div className="content-root">
-			<h1>Portifólio</h1>
+			<h1>Portifolio</h1>
 			<PortifolioContent
 				image={memePortifolio}
 				technologies={["REACT", "NODE", "SQL Server", "KONVA", "Google API", "Axios"]}
 				title="Meme creator"
-				description={`Aplicativo Web para criação e visualização de memes.
-				Com ele é possível criar e editar imagens de memes diretamente pelo browser.`}
+				description={`Web Application for creating and visualizing memes.
+				With it it's possible to create and edit meme images directly in the browser.`}
 			/>
 			<PortifolioContent
 				image={buildsPortifolio}
 				technologies={["REACT", "SASS"]}
 				title="Paixão pelo cantildes"
-				description={`Web Site de portifólio para canto. Exibe de forma estática
-				vídeos do YouTube.`}
+				description={`Portifolio Web Site for singer. It statically shows YouTube videos.`}
 			/>
 			<PortifolioContent
 				image={betheheroPortifolio}
 				technologies={["REACT", "Axios"]}
 				title="Be The Hero"
-				description={`Web App para engajamento de ajudas e doações para animais abandonados.
-				Foi desenvolvido no curso da semana Ominstack, da Rocket Seat`}
+				description={`Web Application that engages people on donating to abandoned animals.
+				It was developed as part of the Oministack Week, from Rocket Seat.`}
 			/>
 			{/* <PortifolioContent
 				classType="devops"
