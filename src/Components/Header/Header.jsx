@@ -1,41 +1,27 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-// import { PageHeader } from "antd"
-// import './Header.css'
 import "./Header.scss"
-import gitHubIco from "../../Assets/github_icon.png"
 
 
 export default () => {
 
     const history = useHistory()
 
+    function pushTo(page) {
+        window.scroll(0,0)
+        history.push(page)
+    }
+
     return (
         <div className="header-main">
             <div className="title-root">
-                <p onClick={() => history.push("/")} className="title">Alan Oli</p>
+                <p onClick={() => pushTo("/")} className="title pointer-hover">Alan Oli</p>
             </div>
             <div className="menus">
-                <div className="desktop-menu home">Home</div>
-                <div className="desktop-menu about">About</div>
-                <div onClick={() => history.push("/about")} className="contact">Contact</div>
+                <div onClick={() => pushTo("/")} className="desktop-menu home pointer-hover">Home</div>
+                <div onClick={() => pushTo("/about")} className="desktop-menu about pointer-hover">About</div>
+                <div onClick={() => pushTo("/about")} className="contact pointer-hover">Contact</div>
             </div>
         </div>
-        // <PageHeader
-        //     className="header-component"
-        //     title={
-        //             <p
-        //                 className="header-title"
-        //                 onClick={() => history.push("/")}
-        //             >Alan Oliveira</p>
-        //     }
-        //     extra={[
-        //         <input
-        //             key="1"
-        //             className="header-icon" type="image" src={gitHubIco}
-        //             onClick={() => window.open("https://github.com/alanoli")}
-        //         />
-        //     ]}
-        // />
     )
 }

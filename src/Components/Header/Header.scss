@@ -47,6 +47,11 @@
     @media only screen and (min-width: $desktop-min-width) {
         .desktop-menu {
             display: block;
+            margin-right: 30px;
+        }
+
+        .pointer-hover:hover {
+            cursor: pointer;
         }
     }
 }
